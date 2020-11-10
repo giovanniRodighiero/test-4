@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.books {
+    list-style-type: none;
+}
+
+.books__item {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.books__title {
+    display: block;
+}
+
+.books__title > small {
+    display: block;
+}
+
+.books__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.books__info > p:first-child {
+    margin-right: 30px;
+}
